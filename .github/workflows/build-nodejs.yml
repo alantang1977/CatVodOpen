@@ -16,7 +16,7 @@ jobs:
     - name: Run npm bild
       working-directory: nodejs
       run: |
-        npm i
+        npm i lodash
         npm run build
         
     - name: Archive dist
